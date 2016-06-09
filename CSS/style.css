@@ -1,0 +1,117 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,700);
+
+/* Selector universal */
+*
+{box-sizing: border-box;
+
+/* descuenta del ancho y alto, lo sumado en relleno y borde */
+}
+body {
+	font-family: 'Raleway', sans-serif;
+	margin:0; /* Elimina MARGENES */
+}
+
+/* Resets */
+
+/* Agrupacion de selectores */
+
+ul, ol {
+	list-style: none; /* Elimina la viñeta */
+	margin:0;
+	padding:0; /* Elimina el relleno */
+}
+figure {
+	margin:0;
+}
+
+/* 
+	tamaños
+	ancho- width:;
+	Alto - height:;
+*/
+
+.main-header {
+	width: 1200px;
+	border: solid 1px red;
+	margin: auto;
+	padding: 20px 0;
+}
+
+.logo{
+	float: left;
+	border:solid 1px green;
+}
+
+.main-nav{
+	float: right;
+	border:solid 1px yellow;
+}
+
+.cleaner{
+	clear: both;
+}
+
+/* selector descendiente, aplica estilo que esta adentro de otro;
+*/
+
+
+
+.main-nav li{
+	float: left;
+	margin: 8px 0 0 15px;
+}
+
+
+#banner{
+	background: url(../images/indexbanner-bg3.jpg) center top no-repeat;
+	background size: cover;
+}
+
+.container{
+	width:1200px;
+	margin:auto;
+}
+
+.banner-title{
+	color: #fff;
+	font-size: 50px;
+	padding-top: 150px;
+	margin: 0;
+}
+
+.banner-text{
+	color:#fff;
+	font-size:20px;
+}
+
+.register{
+	background-color: #fff;
+	position: relative;
+	top: 30px;
+}
+
+.register input{
+	width: 1000px;
+	height: 60px;
+	font-size: 16px;
+	font-family: inherit;
+}
+
+.register button{
+	border: none;
+	background-color: #06b4f2;
+	height: 60px;
+	width: 195px;
+	color:#fff;
+	font-family: inherit;
+	font-size: 16px;
+}
+
+.producto{
+	border: dashed 1px green;
+	width: 300px;
+	text-align: center;
+	float:left;
+	margin-top: 100px;
+
+}
